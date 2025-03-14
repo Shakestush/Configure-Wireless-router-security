@@ -11,19 +11,19 @@ This repository contains documentation and configuration files for a wireless ne
 ## Implementation Details
 ### Primary Network Configuration
 The main wireless network is configured with the following security settings:
-**SSID**: HomeNet
-**SSID Broadcast**: Enabled
-**Security Mode**: WPA2 Personal
-**Encryption**: AES
-**Authentication**: Pre-shared key (passphrase)
+- **SSID**: HomeNet
+- **SSID Broadcast**: Enabled
+- **Security Mode**: WPA2 Personal
+- **Encryption**: AES
+- **Authentication**: Pre-shared key (passphrase)
 
 ### Guest Network Configuration
 A separate guest network is configured to provide internet access for visitors while maintaining network segmentation:
-**SSID** : GuestNet
-**SSID Broadcast**: Enabled
-**Security Mode**: WPA2 Personal
-**Encryption**: AES
-**Authentication**: Separate guest passphrase
+- **SSID** : GuestNet
+- **SSID Broadcast**: Enabled
+- **Security Mode**: WPA2 Personal
+- **Encryption**: AES
+- **Authentication**: Separate guest passphrase
 
 ### Security Considerations
 The lab addresses several important wireless security concepts:
